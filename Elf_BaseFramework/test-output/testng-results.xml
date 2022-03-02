@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Successfully Launched Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser window is maximized successfully]]>
+    </line>
+    <line>
+      <![CDATA[sellar page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Thank you for signing up! A verification email has been sent. We appreciate your interest.]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-03-02T16:03:20 IST" name="Default suite" finished-at="2022-03-02T16:03:33 IST" duration-ms="12556">
+    <groups>
+    </groups>
+    <test started-at="2022-03-02T16:03:20 IST" name="Default test" finished-at="2022-03-02T16:03:33 IST" duration-ms="12556">
+      <class name="computers.TC_JW_20_Test">
+        <test-method is-config="true" signature="openTheBrowser(java.lang.String)[pri:0, instance:computers.TC_JW_20_Test@378542de]" started-at="2022-03-02T16:03:20 IST" name="openTheBrowser" finished-at="2022-03-02T16:03:23 IST" duration-ms="3136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Launched Chrome Browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser window is maximized successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:computers.TC_JW_20_Test@378542de]" started-at="2022-03-02T16:03:23 IST" name="loginToApplication" finished-at="2022-03-02T16:03:29 IST" duration-ms="5598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="sample()[pri:0, instance:computers.TC_JW_20_Test@378542de]" started-at="2022-03-02T16:03:29 IST" name="sample" finished-at="2022-03-02T16:03:31 IST" duration-ms="2500" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[sellar page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Thank you for signing up! A verification email has been sent. We appreciate your interest.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sample -->
+        <test-method is-config="true" signature="logoutOfApplication()[pri:0, instance:computers.TC_JW_20_Test@378542de]" started-at="2022-03-02T16:03:31 IST" name="logoutOfApplication" finished-at="2022-03-02T16:03:32 IST" duration-ms="1010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:computers.TC_JW_20_Test@378542de]" started-at="2022-03-02T16:03:32 IST" name="closeTheBrowser" finished-at="2022-03-02T16:03:33 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- computers.TC_JW_20_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
