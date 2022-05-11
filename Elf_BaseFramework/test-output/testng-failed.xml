@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="computers.TC_JW_20_Test">
+      <class name="computers.TC_JW_18_Test">
         <methods>
+          <include name="sample"/>
           <include name="openTheBrowser"/>
           <include name="closeTheBrowser"/>
-          <include name="sample"/>
           <include name="loginToApplication"/>
           <include name="logoutOfApplication"/>
         </methods>
-      </class> <!-- computers.TC_JW_20_Test -->
+      </class> <!-- computers.TC_JW_18_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -39,7 +39,9 @@ public class TC_JW_19_Test extends Base_Class{
 			 
 			e.printStackTrace();
 		}
+       explicitWait.until(ExpectedConditions.elementToBeClickable(s1.getEditOption()));
         s1.getEditOption().click();
+      // explicitWait.until(ExpectedConditions.elementToBeClickable(s1.getEditOption()));
         ExcelUtil ele1 = new ExcelUtil();
 		double length1 = ele1.readNumberDataFromExcel("sheet1", 1, 0);
 		s1.getNewLength().sendKeys(""+length1);
